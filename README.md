@@ -27,3 +27,10 @@ Ken,Thompson,19430204
 Rob,Pike,19560101
 Robert,Griesemer,19640609
 ```
+
+## How To Run
+The following dependencies are required:
+* numpy
+* os
+
+These libraries can be individually uinstalled using pip install
