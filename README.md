@@ -34,3 +34,7 @@ The following dependencies are required:
 * os
 
 These libraries can be individually uinstalled using pip install
+
+## Assumptions
+Assuming that the first line in the CSV file is 
+```first_name,last_name,dob```
