@@ -7,7 +7,7 @@ def filter_csv(file_name):
     df = pd.read_csv(file_name, dtype=str)
     filter_type, filter_value = get_filter()
 
-    # check if value is in the given column
+    # check if value is in the given columnexa
     if not filter_value in df[filter_type].unique():
         return f'There is no {filter_value} value for the given filter in the CSV file'
 
@@ -37,6 +37,7 @@ def get_filter():
             filter_type = "dob"
             break       
     
+    #handles any exception cases and reloops
         print("That is not a valid filter option.")
 
     filter_value = input(f'Please provide the {prompt_filter_type.lower().strip()}\n')

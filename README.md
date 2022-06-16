@@ -30,7 +30,7 @@ Robert,Griesemer,19640609
 
 ## How To Run
 The following dependencies are required:
-* numpy
+* pandas
 * os
 
 These libraries can be individually uinstalled using pip install
